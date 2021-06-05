@@ -58,7 +58,13 @@ You can disable all workflows for an organization or set a policy that configure
 1. Click **Save**.
 
 ### Allowing specific actions to run
-
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
 {% data reusables.actions.allow-specific-actions-intro %}
 
 {% data reusables.profile.access_org %}
