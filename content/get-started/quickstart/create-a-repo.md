@@ -18,7 +18,9 @@ topics:
   - Accounts
 ---
 ## Create a repository
-
+GITHUB_TOKEN to publish packages associated with the workflow repository.
+a PAT to install packages associated with other private repositories (which GITHUB_TOKEN can't access).
+For more information about GITHUB_TOKEN used in GitHub Actions workflows, see "Authentication in a workflow."
 {% ifversion fpt or ghec %}
 
 You can store a variety of projects in {% data variables.product.prodname_dotcom %} repositories, including open source projects. With [open source projects](http://opensource.org/about), you can share code to make better, more reliable software. You can use repositories to collaborate with others and track your work. For more information, see "[About repositories](/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-repositories)."
